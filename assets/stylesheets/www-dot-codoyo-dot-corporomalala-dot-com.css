@@ -2,23 +2,23 @@
 		*{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-family:inherit;vertical-align:baseline;font-size:1em;font-style:normal;-webkit-font-smoothing:antialiased;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-o-box-sizing:border-box;/*user-select:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;*/tap-highlight-color:transparent;-webkit-tap-highlight-color:transparent;-moz-tap-highlight-color:transparent;-o-tap-highlight-color:transparent;}*, *::before, *::after{-webkit-transition:.5s;-box-transition:.5s;-o-transition:.5s;transition:.5s;}:hover,:active,:focus{outline:0 !important;}html, body{min-height:100%;font-family:sans-serif;font-size:1rem;position:relative;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;padding:0;line-height:1;}article, footer, header, section{display:block;}ol, ul{list-style:none;}a{display:inline-block;text-decoration:none;background-color:transparent;color:initial;}a img{border:none;}a, button, input[type="submit"]{cursor:pointer !important;}button{// background-color:transparent;}img{width:100%;height:auto;}img::selection{fill:none;color:none;display:none;background:none;}input[type="text"], input[type="number"], input[type="search"], input[type="email"], textarea{text-align:left;max-width:100%;}input[type="checkbox"], input[type="radio"]{display:none;}input[type="submit"]{background-color:transparent;}label{display:inline;}textarea{resize:vertical;}
 /*** END RESET ***/
 
-.contact-main-faq-block-answer { display: none; }
-#rdb4faq1:checked ~ main .contact-main-faq-block-answer.nthChild-1,
-#rdb4faq2:checked ~ main .contact-main-faq-block-answer.nthChild-2,
-#rdb4faq3:checked ~ main .contact-main-faq-block-answer.nthChild-3,
-#rdb4faq4:checked ~ main .contact-main-faq-block-answer.nthChild-4,
-#rdb4faq5:checked ~ main .contact-main-faq-block-answer.nthChild-5,
-#rdb4faq6:checked ~ main .contact-main-faq-block-answer.nthChild-6,
-#rdb4faq7:checked ~ main .contact-main-faq-block-answer.nthChild-7,
-#rdb4faq8:checked ~ main .contact-main-faq-block-answer.nthChild-8,
-#rdb4faq9:checked ~ main .contact-main-faq-block-answer.nthChild-9,
-#rdb4faq10:checked ~ main .contact-main-faq-block-answer.nthChild-10,
-#rdb4faq11:checked ~ main .contact-main-faq-block-answer.nthChild-11,
-#rdb4faq12:checked ~ main .contact-main-faq-block-answer.nthChild-12,
-#rdb4faq13:checked ~ main .contact-main-faq-block-answer.nthChild-13,
-#rdb4faq14:checked ~ main .contact-main-faq-block-answer.nthChild-14,
-#rdb4faq15:checked ~ main .contact-main-faq-block-answer.nthChild-15,
-#rdb4faq16:checked ~ main .contact-main-faq-block-answer.nthChild-16,
+.faq-content-block-answer { display: none; }
+#rdb4faq1:checked ~ main .faq-content-block-answer.nthChild-1,
+#rdb4faq2:checked ~ main .faq-content-block-answer.nthChild-2,
+#rdb4faq3:checked ~ main .faq-content-block-answer.nthChild-3,
+#rdb4faq4:checked ~ main .faq-content-block-answer.nthChild-4,
+#rdb4faq5:checked ~ main .faq-content-block-answer.nthChild-5,
+#rdb4faq6:checked ~ main .faq-content-block-answer.nthChild-6,
+#rdb4faq7:checked ~ main .faq-content-block-answer.nthChild-7,
+#rdb4faq8:checked ~ main .faq-content-block-answer.nthChild-8,
+#rdb4faq9:checked ~ main .faq-content-block-answer.nthChild-9,
+#rdb4faq10:checked ~ main .faq-content-block-answer.nthChild-10,
+#rdb4faq11:checked ~ main .faq-content-block-answer.nthChild-11,
+#rdb4faq12:checked ~ main .faq-content-block-answer.nthChild-12,
+#rdb4faq13:checked ~ main .faq-content-block-answer.nthChild-13,
+#rdb4faq14:checked ~ main .faq-content-block-answer.nthChild-14,
+#rdb4faq15:checked ~ main .faq-content-block-answer.nthChild-15,
+#rdb4faq16:checked ~ main .faq-content-block-answer.nthChild-16,
 .jekyllPlaceholderClass { display: block; }
 
 
@@ -105,26 +105,26 @@
 .jekyllPlaceholderClass { background-color: white; }
 
 
-#rdb4faq1:checked ~ main .contact-main-faq-block:nth-child(1) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq2:checked ~ main .contact-main-faq-block:nth-child(2) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq3:checked ~ main .contact-main-faq-block:nth-child(3) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq4:checked ~ main .contact-main-faq-block:nth-child(4) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq5:checked ~ main .contact-main-faq-block:nth-child(5) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq6:checked ~ main .contact-main-faq-block:nth-child(6) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq7:checked ~ main .contact-main-faq-block:nth-child(7) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq8:checked ~ main .contact-main-faq-block:nth-child(8) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq9:checked ~ main .contact-main-faq-block:nth-child(9) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq10:checked ~ main .contact-main-faq-block:nth-child(10) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq11:checked ~ main .contact-main-faq-block:nth-child(11) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq12:checked ~ main .contact-main-faq-block:nth-child(12) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq13:checked ~ main .contact-main-faq-block:nth-child(13) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq14:checked ~ main .contact-main-faq-block:nth-child(14) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq15:checked ~ main .contact-main-faq-block:nth-child(15) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq16:checked ~ main .contact-main-faq-block:nth-child(16) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq17:checked ~ main .contact-main-faq-block:nth-child(17) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq18:checked ~ main .contact-main-faq-block:nth-child(18) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq19:checked ~ main .contact-main-faq-block:nth-child(19) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
-#rdb4faq20:checked ~ main .contact-main-faq-block:nth-child(20) .u-dots-index-button.contact-main-faq-block-question-dot-index-button:before,
+#rdb4faq1:checked ~ main .faq-content-block:nth-child(1) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq2:checked ~ main .faq-content-block:nth-child(2) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq3:checked ~ main .faq-content-block:nth-child(3) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq4:checked ~ main .faq-content-block:nth-child(4) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq5:checked ~ main .faq-content-block:nth-child(5) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq6:checked ~ main .faq-content-block:nth-child(6) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq7:checked ~ main .faq-content-block:nth-child(7) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq8:checked ~ main .faq-content-block:nth-child(8) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq9:checked ~ main .faq-content-block:nth-child(9) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq10:checked ~ main .faq-content-block:nth-child(10) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq11:checked ~ main .faq-content-block:nth-child(11) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq12:checked ~ main .faq-content-block:nth-child(12) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq13:checked ~ main .faq-content-block:nth-child(13) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq14:checked ~ main .faq-content-block:nth-child(14) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq15:checked ~ main .faq-content-block:nth-child(15) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq16:checked ~ main .faq-content-block:nth-child(16) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq17:checked ~ main .faq-content-block:nth-child(17) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq18:checked ~ main .faq-content-block:nth-child(18) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq19:checked ~ main .faq-content-block:nth-child(19) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
+#rdb4faq20:checked ~ main .faq-content-block:nth-child(20) .u-dots-index-button.faq-content-block-question-dot-index-button:before,
 .jekyllPlaceholderClass { background-color: white !important; }
 
 
@@ -152,31 +152,36 @@
 
 
 
-#rdb4faq1:checked ~ main .contact-main-faq-block:nth-child(1) .contact-main-faq-block-question,
-#rdb4faq2:checked ~ main .contact-main-faq-block:nth-child(2) .contact-main-faq-block-question,
-#rdb4faq3:checked ~ main .contact-main-faq-block:nth-child(3) .contact-main-faq-block-question,
-#rdb4faq4:checked ~ main .contact-main-faq-block:nth-child(4) .contact-main-faq-block-question,
-#rdb4faq5:checked ~ main .contact-main-faq-block:nth-child(5) .contact-main-faq-block-question,
-#rdb4faq6:checked ~ main .contact-main-faq-block:nth-child(6) .contact-main-faq-block-question,
-#rdb4faq7:checked ~ main .contact-main-faq-block:nth-child(7) .contact-main-faq-block-question,
-#rdb4faq8:checked ~ main .contact-main-faq-block:nth-child(8) .contact-main-faq-block-question,
-#rdb4faq9:checked ~ main .contact-main-faq-block:nth-child(9) .contact-main-faq-block-question,
-#rdb4faq10:checked ~ main .contact-main-faq-block:nth-child(10) .contact-main-faq-block-question,
-#rdb4faq11:checked ~ main .contact-main-faq-block:nth-child(11) .contact-main-faq-block-question,
-#rdb4faq12:checked ~ main .contact-main-faq-block:nth-child(12) .contact-main-faq-block-question,
-#rdb4faq13:checked ~ main .contact-main-faq-block:nth-child(13) .contact-main-faq-block-question,
-#rdb4faq14:checked ~ main .contact-main-faq-block:nth-child(14) .contact-main-faq-block-question,
-#rdb4faq15:checked ~ main .contact-main-faq-block:nth-child(15) .contact-main-faq-block-question,
-#rdb4faq16:checked ~ main .contact-main-faq-block:nth-child(16) .contact-main-faq-block-question,
-#rdb4faq17:checked ~ main .contact-main-faq-block:nth-child(17) .contact-main-faq-block-question,
-#rdb4faq18:checked ~ main .contact-main-faq-block:nth-child(18) .contact-main-faq-block-question,
-#rdb4faq19:checked ~ main .contact-main-faq-block:nth-child(19) .contact-main-faq-block-question,
-#rdb4faq20:checked ~ main .contact-main-faq-block:nth-child(20) .contact-main-faq-block-question,
+#rdb4faq1:checked ~ main .faq-content-block:nth-child(1) .faq-content-block-question,
+#rdb4faq2:checked ~ main .faq-content-block:nth-child(2) .faq-content-block-question,
+#rdb4faq3:checked ~ main .faq-content-block:nth-child(3) .faq-content-block-question,
+#rdb4faq4:checked ~ main .faq-content-block:nth-child(4) .faq-content-block-question,
+#rdb4faq5:checked ~ main .faq-content-block:nth-child(5) .faq-content-block-question,
+#rdb4faq6:checked ~ main .faq-content-block:nth-child(6) .faq-content-block-question,
+#rdb4faq7:checked ~ main .faq-content-block:nth-child(7) .faq-content-block-question,
+#rdb4faq8:checked ~ main .faq-content-block:nth-child(8) .faq-content-block-question,
+#rdb4faq9:checked ~ main .faq-content-block:nth-child(9) .faq-content-block-question,
+#rdb4faq10:checked ~ main .faq-content-block:nth-child(10) .faq-content-block-question,
+#rdb4faq11:checked ~ main .faq-content-block:nth-child(11) .faq-content-block-question,
+#rdb4faq12:checked ~ main .faq-content-block:nth-child(12) .faq-content-block-question,
+#rdb4faq13:checked ~ main .faq-content-block:nth-child(13) .faq-content-block-question,
+#rdb4faq14:checked ~ main .faq-content-block:nth-child(14) .faq-content-block-question,
+#rdb4faq15:checked ~ main .faq-content-block:nth-child(15) .faq-content-block-question,
+#rdb4faq16:checked ~ main .faq-content-block:nth-child(16) .faq-content-block-question,
+#rdb4faq17:checked ~ main .faq-content-block:nth-child(17) .faq-content-block-question,
+#rdb4faq18:checked ~ main .faq-content-block:nth-child(18) .faq-content-block-question,
+#rdb4faq19:checked ~ main .faq-content-block:nth-child(19) .faq-content-block-question,
+#rdb4faq20:checked ~ main .faq-content-block:nth-child(20) .faq-content-block-question,
 .jekyllPlaceholderClass { text-decoration: underline; }
 /*** CANCEL ***/
 body { overflow-x: hidden; }
 p, .p,
 q { line-height: 1.5em; }
+
+input {
+    width: 100%;
+    display: block;
+}
 textarea { min-height: 10em; }
 /*** END CANCEL ***/
 
@@ -188,6 +193,7 @@ textarea { min-height: 10em; }
 /*** COLORS ***/
 .banner-figure:after,
 .demo-header,
+.demo-main-block-button,
 .u-dots-index-button,
 .testimonial-figures:before,
 .testimonial-quotes,
@@ -198,10 +204,10 @@ textarea { min-height: 10em; }
 .u-dots-index-button:hover,
 .u-dots-index-button:active,
 .u-dots-index-button:focus { background-color: white; }
-.contact-main-faq-block-question:hover .u-dots-index-button:before,
-.contact-main-faq-block-question:active .u-dots-index-button:before,
-.contact-main-faq-block-question:focus .u-dots-index-button:before { background-color: white !important;}
-.u-dots-index-button.contact-main-faq-block-question-dot-index-button:before { border-color: white; }
+.faq-content-block-question:hover .u-dots-index-button:before,
+.faq-content-block-question:active .u-dots-index-button:before,
+.faq-content-block-question:focus .u-dots-index-button:before { background-color: white !important;}
+.u-dots-index-button.faq-content-block-question-dot-index-button:before { border-color: white; }
 .features-header-nav-option-button:hover,
 .features-header-nav-option-button:active,
 .features-header-nav-option-button:focus,
@@ -233,7 +239,7 @@ textarea { min-height: 10em; }
 .u-dots-index-button:hover:before,
 .u-dots-index-button:active:before,
 .u-dots-index-button:focus:before,
-.u-dots-index-button.contact-main-faq-block-question-dot-index-button,
+.u-dots-index-button.faq-content-block-question-dot-index-button,
 .m-section.message .m-section-content,
 .m-section.message .m-section-content:before,
 .m-section.footer .m-section-content,
@@ -257,7 +263,9 @@ q { font-family: "Bakersville", serif; }
 
 .process-main-aside-index,
 .process-nav-box-button { font-size: 7em; }
+.process-nav-box-button-alt { font-size: 13px; }
 
+.demo-main-block-button,
 .features-content-hgroup-h4,
 .features-content-main-text-p,
 .features-header-nav-option-button,
@@ -274,13 +282,13 @@ q { font-family: "Bakersville", serif; }
 .features-header-nav-option-button:focus,
 #rdb4featuresOptional:checked ~ main .features-header-nav-option-button.is-for_optional,
 #rdb4featuresStandard:checked ~ main .features-header-nav-option-button.is-for_standard { font-weight: bold; }
-.contact-main-faq-block-question:hover,
-.contact-main-faq-block-question:active,
-.contact-main-faq-block-question:focus,
+.faq-content-block-question:hover,
+.faq-content-block-question:active,
+.faq-content-block-question:focus,
 .m-section.footer .m-section-content a,
 .m-section.message .m-section-content a { text-decoration: underline; }
 
-.contact-main-faq-block-question * { vertical-align: top; }
+.faq-content-block-question * { vertical-align: top; }
 /*** END FONTS ***/
 
 /*** MEDIA ***/
@@ -296,7 +304,7 @@ html {
     overflow: auto;
     padding: .5em;
 }
-.u-dots.contact-main-faq-block-question-dot {
+.u-dots.faq-content-block-question-dot {
     display: inline-block;
     padding: 0;
 }
@@ -306,7 +314,7 @@ html {
     padding: .25em;
     float: left;
 }
-.u-dots-index.contact-main-faq-block-question-dot-index {
+.u-dots-index.faq-content-block-question-dot-index {
     padding: 0;
 }
 .u-dots-index.features-header-nav-toggle-position-index { width: 20%; }
@@ -386,22 +394,26 @@ html {
     width: 100%; height: 100%;
 }
 
-.contact-main-faq-block-answer {
+.faq-content-block-answer {
     padding-left: 2.5em;
 }
-.contact-main-faq-block-question {
+.faq-content-block-question {
     position: relative;
 }
-.contact-main-form-fieldset * {
-    width: 100%;
-    display: block;
-}
 .contact-main-form-fieldset input,
-.contact-main-form-fieldset textarea {
+.contact-main-form-fieldset textarea,
+.contact-main-newsletter-fieldset input {
     padding: .5em;
 }
-.contact-main-form-fieldset span {
+.contact-main-form-fieldset span,
+.contact-main-newsletter-fieldset span {
     margin: 1em 0 .25em 0;
+}
+
+.demo-main-block-button {
+    display: block;
+    padding: .5em 3em;
+    border-radius: .25em;
 }
 
 .features-content-main {
@@ -416,6 +428,9 @@ html {
 
 .process-main-step-hgroup-icon {
     width: 1em; height: 1em;
+}
+.process-nav-box-button-alt {
+    display: block;
 }
 
 .banner-figure-wrap,
@@ -435,7 +450,7 @@ html {
 /*** END COMPONENTS ***/
 
 /*** INTERACTIVITY ***/
-.contact-main-faq-block-question,
+.faq-content-block-question,
 .features-header-nav-option-button,
 .features-header-nav-toggle-direction-button,
 .process-nav-box-button,
@@ -454,12 +469,13 @@ html {
 @media  screen and (max-width: 50em) {
     body, html { font-size: 16px; }
     .contact-header-h3,
+    .faq-header-h3,
     .features-header-hgroup-h3,
     .header-tagline,
     .process-main-header-h3,
     .testimonial-quotes-header-h3 { font-size: 2em; }
-    .contact-main-faq-hgroup-h4,
     .contact-main-form-hgroup-h4,
+    .contact-main-newsletter-hgroup-h4,
     .demo-header-h4,
     .features-content-hgroup-h4,
     .header-title,
@@ -504,12 +520,13 @@ html {
 @media  screen and (min-width: 50em) {
     body, html { font-size: 18px; }
     .contact-header-h3,
+    .faq-header-h3,
     .features-header-hgroup-h3,
     .header-tagline,
     .process-main-header-h3,
     .testimonial-quotes-header-h3 { font-size: 3em; }
-    .contact-main-faq-hgroup-h4,
     .contact-main-form-hgroup-h4,
+    .contact-main-newsletter-hgroup-h4,
     .demo-header-h4,
     .features-content-hgroup-h4,
     .header-title,
@@ -527,7 +544,7 @@ html {
     .features-header-hgroup,
     .testimonial-figures { flex: 2; }
     .banner-text,
-    .contact-main-faq,
+    .faq-content,
     .features-header-nav,
     .process-main-wrap,
     .testimonial-quotes { flex: 1; }
@@ -540,6 +557,16 @@ html {
     .m-section.footer { margin-top: 4em; }
     
     .m-section-aside { width: 5em; }
+
+    .faq-content-block { width: 50%; }
+    .contact-main-newsletter { width: 30%; }
+
+    .faq-content-blocks {
+        overflow: auto;
+    }
+    .faq-content-block {
+        float: left;
+    }
 
     .features-content-hgroup,
     .features-header-nav {
@@ -582,6 +609,10 @@ html {
 
 /*** HACKS ***/
 .process-main-step-hgroup-icon { height: auto; }
+.theThing {
+    height: 0 !important;
+    overflow: hidden !important;
+}
 /*** HACKS ***/
 
 /*** TO DELETE ***/
