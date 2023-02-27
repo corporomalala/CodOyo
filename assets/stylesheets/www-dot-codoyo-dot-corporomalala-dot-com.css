@@ -292,10 +292,14 @@ q { font-family: "Bakersville", serif; }
 /*** END FONTS ***/
 
 /*** MEDIA ***/
+html {// background-image: url("../../assets/images/matrix.gif"); }
 html { background-image: url("../../assets/images/matrix.gif"); }
 html {
-    background-size: auto 100%;
+//    background-size: auto 100%;
     background-position: fixed;
+}
+.background {
+    border: 1px solid red;
 }
 /*** END MEDIA ***/
 
